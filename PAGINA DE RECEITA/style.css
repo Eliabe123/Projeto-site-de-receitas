@@ -1,3 +1,17 @@
+body {
+  background-image: url('assets/bg-image.jpg');
+  background-size: cover; /*Cobrir toda area*/
+}
+
+#page{
+  box-sizing: border-box; /*Tirei o padrão da caixa*/
+  width: 800px; /*Largura de 800px*/
+  padding: 24px; /*Espaço interno de 24px -- margem até o conteudo*/
+  background-color: #F0E8C2; /*Cor de fundo*/
+  border-radius: 24px; /*Arredondamento de borda*/
+  margin: 48px auto; /*Margem vertical e horizontal*/
+}
+
 img {
-  border-radius: 16px;
+  border-radius: 16px; /*Arredondamento de borda*/
 }
