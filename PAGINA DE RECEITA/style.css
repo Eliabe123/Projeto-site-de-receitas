@@ -20,7 +20,7 @@ body {
   padding: 24px; /*Espaço interno de 24px -- margem até o conteudo*/
   background-color: #F0E8C2; /*Cor de fundo*/
   border-radius: 24px; /*Arredondamento de borda*/
-  margin: 48px auto; /*Margem vertical e horizontal*/
+  margin: 48px auto 28px; /*Margem vertical e horizontal*/
 }
 
 img {
@@ -56,4 +56,14 @@ h1,h2{
 
 ul{
   padding-left: 24px;
+}
+
+footer{
+  color: #F0E8C2;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer img{
+  vertical-align: middle;
 }
